@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icons/favicon.ico" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="STYLE.CSS">
+    <title>Mental Health</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <p><span>Mental</span>Health</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Acceuil</a></li>
+                <li><a href="#qui-somme-nous">Qui somme nous</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#rendez-vous">Prendre un Rendez-vous</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--page acceuil-->
+    <section id="acceuil">
+        <div class="left">
+            <img src="photo/home-img.svg" alt="">
+        </div>
+        <div class="right">
+            <h3>stay safe , stay positive </h3>
+            <p>"mentalHealth" est un service d'ecoute ,d'accompagnement et de soution psychcologique disponible 7j/7j
+            </p>
+            <a href="#rendez-vous"> <input type="button" value="prendre un Rendez-vous" class="btn" /></a>
+        </div>
+        </div>
+    </section>
+
+    <!--presentation -->
+    <section id="aboutus">
+        <div class="img">
+            <img src="photo/phone.jpg" alt="photo" />
+        </div>
+        <div class="content">
+            <h2>POURQUOI <span> NOUS CHOISIR ?</span> </h2>
+            <div class="facile">
+                <h3> - Facilité d'accès au service</h3>
+                <p>Sans rendez-vous ni besoin de se déplacer ou de réorganiser son emploi du temps. </p>
+            </div>
+            <div class="anon">
+                <h3> - L'anonymat</h3>
+                <p>N’ayez plus peur du jugement d’autrui, vous pouvez garder l’anonymat lors de votre consultation.</p>
+            </div>
+            <div class="suivie">
+                <h3> - Le suivi</h3>
+                <p>Une équipe de psychologues pluridisciplinaire est à votre écoute</p>
+            </div>
+        </div>
+    </section>
+    </br></br> </br>
+
+    <!--page qui somme nous-->
+
+    <section id="qui-somme-nous">
+        <h1><span>Qui somme </span> nous</h1>
+        <div class="page2">
+            <div class="imgpres">
+                <img src="photo/ppl.jpg">
+            </div>
+            <div class="para">
+                <p> - Nos prestations sont centrées sur le bien-être et la santé mentale du citoyen tunisien.</br> Nous
+                    proposons en effet une alternative à la médication aussi bien efficace qu’innovante en accompagnant
+                    les personnes dans l’adoption de meilleurs réflexes psychologiques pour un meilleur bien-être
+                    mental.
+                    </br> </br> - Ecoute active, appui-conseil, dialogue et accompagnement sont les maîtres-mots de nos
+                    intervenants quels que soient les motifs de consultations à distance </p>
+            </div>
+        </div>
+    </section>
+
+    <!--page services -->
+
+    <section id="services">
+        <h1 class="mini_title"> Nos <span>services</span></h1>
+        <div class="comments">
+            <div class="comment">
+                <div>
+                    <img src="icons/phone-call.png">
+                    <h4>Etape 1</h4>
+                </div>
+                <p>Pour bénéficier d'une consultation psychologique, Cliquez sur prendre un rendez-vous ou appelez 23
+                    940 099 pour vous expliquer les étapes</p>
+            </div>
+            <div class="comment">
+                <div>
+                    <img src="icons/calendrier.png">
+                    <h4>Etape 2</h4>
+                </div>
+                <p>Remplissez le formulaire, choisissez votre psychologue, le nombre des séances et placez les sur le
+                    planning</p>
+            </div>
+            <div class="comment">
+                <div>
+                    <img src="icons/friend.png">
+                    <h4>Etape 3</h4>
+                </div>
+                <p>Vous recevrez une confirmation après paiement et votre suivi psychologique pourra commencer !
+
+                    Un psychologue vous appellera pour chacune de vos consultations</p>
+            </div>
+
+
+        </div>
+     
+    </section>
+
+    <!--page rendez-vous -->
+
+    <section id="rendez-vous" class="book">
+
+        <h1> <span>CONTACTEZ</span>-NOUS</h1>
+
+        <div class="champs">
+
+            <div class="image">
+                <img src="photo/book-img.svg" alt="">
+            </div>
+
+            <form action="" onsubmit="return formValidation()">
+                <h3> <span class="contacter">CONTACTEZ</span> NOUS</h3>
+                <input type="text" placeholder="nom et prenom" maxlength="30" id="nom" class="box" >
+                <input type="number" placeholder="numéro de téléphone" class="box" >
+                <input type="email" placeholder="email" class="box" >
+                <input type="date" class="box" >
+                <input type="submit" value="envoyer" id="send" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+    <script src="app.js"></script>
+
+</body>
+
+<!--FOOTER-->
+
+<footer>
+    <div class="services-list">
+        <div class="contact">
+            <img src="photo/clock.png" alt="">
+            <h2>Ouverture</h2>
+            <p>8h30 à 12h00</p>
+            <p>15h00 à 23h45</p>
+        </div>
+
+        <div class="contact">
+            <img src="photo/pin.png" alt="">
+            <h2>Adresses</h2>
+            <p>tunis</p>
+            <p>ariana</p>
+        </div>
+        <div class="contact">
+            <img src="photo/email.png" alt="">
+            <h2>Emails</h2>
+            <p>sirine.dahmane@esen.tn</p>
+            <p>sirine.wertani@esen.tn</p>
+        </div>
+        <div class="contact">
+            <img src="photo/call.png" alt="">
+            <h2>numero de téléphone</h2>
+            <p>+216 23 940 099</p>
+            <p>+216 58 155 367</p>
+        </div>
+        <hr>
+    </div>
+    <div class="text">
+        <p> Réalisé par : <span> Sirine dahmane</span><span> - Sirine wertani </span> | &copy; </p>
+    </div>
+</footer>
+
+</html>
